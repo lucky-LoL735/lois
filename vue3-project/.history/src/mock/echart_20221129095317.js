@@ -1,0 +1,11 @@
+import Mock from 'mockjs'
+const echart = Mock.mock({
+  line: [{
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    value: [150, 230, 224, 218, 135, 147, 260]
+  }],
+  stackLine: [{
+    value: [220, 187, 191, 234, 290, 330, 310]
+  }],
+  
+})
